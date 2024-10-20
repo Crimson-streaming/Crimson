@@ -2,17 +2,17 @@
     {
         "nom": "nowere",
         "affiche": "img/film/nowhere/nowhere-affiche.jpg",
-        "emplacement": "/crimson/film/nowhere.html"
+        "emplacement": "film/nowhere.html"
     },
     {
         "nom": "deadpool et wolverine",
         "affiche": "    img/film/deadpool-et-wolverine/deadpool-et-wolverine-affiche.webp",
-        "emplacement": "/crimson/film/deadpool-et-wolverine.html"
+        "emplacement": "film/deadpool-et-wolverine.html"
     }
     ,
     {
         "nom": "Athena",
         "affiche": " img/film/Athena/Athena-affiche.jpg",
-        "emplacement": "/crimson/film/deadpool-et-wolverine.html"
+        "emplacement": "film/deadpool-et-wolverine.html"
     }
 ]
