@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Crimson">
   <title>Crimson | Regarder Nowhere en streaming</title>
-  <meta name="description" content="Crimson | Regarder Nowhere en streaming gratuitement et sans publicité ni inscription avec Crimson ! Profitez de votre film Nowhere comme au cinéma grâce à Crimson !" />
-  <link rel="canonical" href="nowhere.html">
+  <meta name="description" content="Crimson | Regarder deadpool et wolverine en streaming gratuitement et sans publicité ni inscription avec Crimson ! Profitez de votre film Nowhere comme au cinéma grâce à Crimson !" />
+  <link rel="canonical" href="Deadpool-et-Wolverine.html">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
@@ -267,7 +267,7 @@ async function showSuggestions(query) {
 
   if (!query) return; // Si la requête est vide, ne rien faire
 
-  const response = await fetch('../data.json');
+  const response = await fetch('../search/d.json');
   const movies = await response.json();
 
   const filteredMovies = movies.filter(movie => movie.nom.toLowerCase().includes(query.toLowerCase()));

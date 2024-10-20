@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Crimson">
     <title>Direct | Crimson LE site de streaming</title>
-    <meta name="description" content="Direct | Regarder bob l'éponge en streaming gratuitement et sans publicité ni inscription avec Crimson !" />
+    <meta name="description" content="Direct | Regarder bob Arte gratuitement et sans publicité ni inscription avec Crimson !" />
     
   
     <!-- Favicon -->
@@ -180,7 +180,7 @@
     
         if (!query) return; // Si la requête est vide, ne rien faire
     
-        const response = await fetch('../data.json');
+        const response = await fetch('../search/d.json');
         const movies = await response.json();
     
         const filteredMovies = movies.filter(movie => movie.nom.toLowerCase().includes(query.toLowerCase()));

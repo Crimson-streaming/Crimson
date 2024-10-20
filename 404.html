@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="XalaFlix">
     <title>Crimson - LE site de streaming</title>
-    <meta name="description" content="Avec XalaFlix, profitez des derniers films et séries en VF HD, gratuitement et sans aucune publicité ! Ce qui ressemble à un rêve devient une réalité grâce à la révolution XalaFlix !" />
+    <meta name="description" content="Avec Crimson, profitez des derniers films et séries en VF HD, gratuitement et sans aucune publicité ! Ce qui ressemble à un rêve devient une réalité grâce à la révolution Crimson !" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -158,7 +158,7 @@ async function showSuggestions(query) {
 
     if (!query) return; // Si la requête est vide, ne rien faire
 
-    const response = await fetch('data.json');
+    const response = await fetch('search/f.json');
     const movies = await response.json();
 
     const filteredMovies = movies.filter(movie => movie.nom.toLowerCase().includes(query.toLowerCase()));
