@@ -1,18 +1,18 @@
 [
     {
         "nom": "nowere",
-        "affiche": "    ../img/film/nowhere/nowhere-affiche.jpg",
-        "emplacement": "../film/nowhere.html"
+        "affiche": "    /img/film/nowhere/nowhere-affiche.jpg",
+        "emplacement": "/film/nowhere.html"
     },
     {
         "nom": "deadpool et wolverine",
-        "affiche": "    ../img/film/deadpool-et-wolverine/deadpool-et-wolverine-affiche.webp",
-        "emplacement": "../film/deadpool-et-wolverine.html"
+        "affiche": "    /img/film/deadpool-et-wolverine/deadpool-et-wolverine-affiche.webp",
+        "emplacement": "/film/deadpool-et-wolverine.html"
     }
     ,
     {
         "nom": "Athena",
-        "affiche": "    ../img/film/Athena/Athena-affiche.jpg",
-        "emplacement": "../film/deadpool-et-wolverine.html"
+        "affiche": "    /img/film/Athena/Athena-affiche.jpg",
+        "emplacement": "/film/deadpool-et-wolverine.html"
     }
 ]
