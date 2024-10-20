@@ -489,7 +489,7 @@ async function showSuggestions(query) {
             const movieDiv = document.createElement('div');
             movieDiv.classList.add('single-video');
             movieDiv.innerHTML = `
-                <a href="crimson${movie.emplacement}">
+                <a href="${movie.emplacement}">
                     <div class="video-img">
                         <span class="video-item-content">${movie.nom}</span>
                         <img src="${movie.affiche}" alt="${movie.nom}">
